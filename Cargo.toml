@@ -11,8 +11,8 @@ keywords = ["gamedev", "bevy", "tokio", "async", "plugin"]
 categories = ["game-development", "asynchronous"]
 
 [dependencies]
-bevy_app = "0.14.0"
-bevy_ecs = "0.14.0"
+bevy_app = { git = "https://github.com/couyit/bevy.git" }
+bevy_ecs = { git = "https://github.com/couyit/bevy.git" }
 tokio = { version = "1", features = ["rt", "sync"] }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
